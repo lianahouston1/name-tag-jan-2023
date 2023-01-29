@@ -16,4 +16,23 @@ function sayHello(name) {
 }
 
 sayHello('Ryan');
+sayHello ('Ariel')
+
+
+
+
+// make a variable that references the update button
+
+const updateBtn = document.getElementById('update');
+updateBtn.addEventListener('click', () => {
+    console.log('i am clicking ze button!');
+// make
+// make a variable that contains a reference to the html element 
+//change text content of html element
+const nameInput = document.getElementById('input');
+
+const nameElem = document.getElementById('name');
+nameElem.textContent = nameInput.value;
+});
+
 
